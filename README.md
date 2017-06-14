@@ -16,6 +16,17 @@ reveal-md Building-A-Node-CLI.md --theme moon
 
 ## Some of the example commands
 
+### Setup
+
+~~~bash
+# change directory to the subdirectory wehre we built our example tool
+cd thingifier
+# install dependencies
+npm install
+# "globally" install the thingifier CLI
+npm link
+~~~
+
 ### Supplying Command Line Arguments
 ~~~bash
 thingifier --sean cool --ethan smart --aaron 2

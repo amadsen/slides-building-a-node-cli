@@ -1,0 +1,21 @@
+{
+  "name": "thingifier",
+  "version": "1.0.0",
+  "description": "do the things",
+  "bin": {
+    "thingifier": "bin/thingifier.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape \"**/*.test.js\"",
+    "example": "thingifier && thingifier"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "yargs": "^8.0.2"
+  }
+}
